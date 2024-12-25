@@ -1,0 +1,184 @@
+{
+  "vans": [
+    {
+      "id": "1",
+      "hostId": "124",
+      "name": "Modest Explorer",
+      "price": 60,
+      "description": "The Modest Explorer is a van designed to get you out of the house and into nature. This beauty is equipped with solar panels, a composting toilet, a water tank, and kitchenette. The idea is that you can pack up your home and escape for a weekend or even longer!",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/modest-explorer.png",
+      "type": "simple"
+    },
+    {
+      "id": "2",
+      "hostId": "123",
+      "name": "Beach Bum",
+      "price": 80,
+      "description": "Beach Bum is a van designed for beach lovers. This van is equipped with surfboard racks, a rooftop tent, and a small fridge to keep your drinks cool while you catch some waves.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/beach-bum.png",
+      "type": "rugged"
+    },
+    {
+      "id": "3",
+      "hostId": "125",
+      "name": "Dreamfinder",
+      "price": 65,
+      "description": "Dreamfinder is for the adventurers who seek a cozy retreat after a long hike. The van comes with a comfy bed, a small kitchenette, and a portable shower to make your trip both adventurous and comfortable.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/dreamfinder.png",
+      "type": "luxury"
+    },
+    {
+      "id": "4",
+      "hostId": "125",
+      "name": "Mountain Peak",
+      "price": 75,
+      "description": "The Mountain Peak is your go-to van for rugged mountain adventures. Equipped with 4-wheel drive, a strong roof rack, and extra storage for gear, it's built for extreme conditions.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/mountain-peak.png",
+      "type": "rugged"
+    },
+    {
+      "id": "5",
+      "hostId": "123",
+      "name": "Sunset Chaser",
+      "price": 90,
+      "description": "Perfect for those chasing sunsets. The Sunset Chaser has large windows for panoramic views, a spacious seating area, and a retractable awning for outdoor relaxation.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/sunset-chaser.png",
+      "type": "luxury"
+    },
+    {
+      "id": "6",
+      "hostId": "124",
+      "name": "City Cruiser",
+      "price": 55,
+      "description": "The City Cruiser is a compact van designed for city getaways. Easy to park and maneuver, this van is perfect for urban explorers who want a weekend retreat.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/city-cruiser.png",
+      "type": "simple"
+    },
+    {
+      "id": "7",
+      "hostId": "124",
+      "name": "Desert Rider",
+      "price": 85,
+      "description": "Built for desert adventures, the Desert Rider comes with extra water storage, sun protection features, and a cooling system to keep you comfortable in extreme heat.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/desert-rider.png",
+      "type": "rugged"
+    },
+    {
+      "id": "8",
+      "hostId": "123",
+      "name": "Forest Dweller",
+      "price": 70,
+      "description": "The Forest Dweller is a cozy, eco-friendly van designed for forest retreats. With sustainable materials and a low environmental footprint, this van is perfect for nature lovers.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/forest-dweller.png",
+      "type": "simple"
+    },
+    {
+      "id": "9",
+      "hostId": "124",
+      "name": "Snow Tracker",
+      "price": 95,
+      "description": "Designed for winter travel, the Snow Tracker comes with heated floors, snow tires, and an extra-powerful heater to keep you warm even in the coldest climates.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/snow-tracker.png",
+      "type": "rugged"
+    },
+    {
+      "id": "10",
+      "hostId": "124",
+      "name": "Ocean Breeze",
+      "price": 75,
+      "description": "The Ocean Breeze is a luxurious van for seaside trips. It comes with a built-in hammock, an outdoor shower, and large windows to enjoy the ocean views.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/ocean-breeze.png",
+      "type": "luxury"
+    },
+    {
+      "id": "11",
+      "hostId": "125",
+      "name": "Horizon Seeker",
+      "price": 68,
+      "description": "Built for those who never stop exploring, the Horizon Seeker is equipped with a rooftop tent, solar panels, and a powerful engine for long trips.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/horizon-seeker.png",
+      "type": "simple"
+    },
+    {
+      "id": "12",
+      "hostId": "123",
+      "name": "Wild Wanderer",
+      "price": 72,
+      "description": "The Wild Wanderer is for those who love off-the-grid adventures. With off-road capabilities and plenty of storage for camping gear, it's perfect for the wilderness.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/wild-wanderer.png",
+      "type": "rugged"
+    },
+    {
+      "id": "13",
+      "hostId": "125",
+      "name": "Eco Nomad",
+      "price": 64,
+      "description": "The Eco Nomad is an environmentally-friendly van equipped with all the essentials for sustainable travel. Its solar-powered system and compostable toilet ensure minimal impact on the environment.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/eco-nomad.png",
+      "type": "simple"
+    },
+    {
+      "id": "14",
+     "hostId": "123",
+      "name": "Skyline Adventurer",
+      "price": 88,
+      "description": "This luxurious van is built for high-altitude adventures. With a roof rack for paragliders and a cabin with a skylight, you'll always have the best views from the Skyline Adventurer.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/skyline-adventurer.png",
+      "type": "luxury"
+    },
+    {
+      "id": "15",
+      "hostId": "125",
+      "name": "Trail Blazer",
+      "price": 83,
+      "description": "The Trail Blazer is for those who like to carve their own path. With all-terrain tires and plenty of storage for hiking gear, it's ideal for backcountry travel.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/trail-blazer.png",
+      "type": "rugged"
+    },
+    {
+      "id": "16",
+      "hostId": "123",
+      "name": "Sunrise Drifter",
+      "price": 76,
+      "description": "The Sunrise Drifter is designed for early risers who love to watch the sunrise from remote locations. Equipped with a large bed, solar panels, and a panoramic window, it's perfect for scenic views.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/sunrise-drifter.png",
+      "type": "luxury"
+    },
+    {
+      "id": "17",
+      "hostId": "125",
+      "name": "Nomad Wanderer",
+      "price": 63,
+      "description": "The Nomad Wanderer is an affordable van built for long road trips. It comes with a comfortable bed, a portable stove, and extra fuel storage for extended journeys.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/nomad-wanderer.png",
+      "type": "simple"
+    },
+    {
+      "id": "18",
+      "hostId": "123",
+      "name": "Arctic Explorer",
+      "price": 100,
+      "description": "The Arctic Explorer is the ultimate van for extreme cold conditions. With thick insulation, snow chains, and a wood-burning stove, this van is your shelter in the snow.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/arctic-explorer.png",
+      "type": "rugged"
+    },
+    {
+      "id": "19",
+      "hostId": "125",
+      "name": "Coastal Cruiser",
+      "price": 78,
+      "description": "The Coastal Cruiser is built for life by the sea. With surfboard racks, waterproof interiors, and plenty of space for beach gear, this van is perfect for beach lovers.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/coastal-cruiser.png",
+      "type": "luxury"
+    },
+    {
+      "id": "20",
+      "hostId": "123",
+      "name": "Lakeside Retreat",
+      "price": 71,
+      "description": "The Lakeside Retreat is designed for quiet escapes by the lake. It includes a fishing pole storage, an outdoor grill, and a deck area for relaxing by the water.",
+      "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/lakeside-retreat.png",
+      "type": "simple"
+    }
+  ]
+}

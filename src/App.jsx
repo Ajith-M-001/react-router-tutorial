@@ -14,6 +14,8 @@ import VanInfo from "./pages/host/VanInfo";
 import VanPricing from "./pages/host/VanPricing";
 import VanPhoto from "./pages/host/VanPhoto";
 import NotFound from "./pages/NotFound";
+import PrivateRoute from "./components/PrivateRoute";
+import Login from "./pages/Login";
 
 const App = () => {
   return (
@@ -24,15 +26,18 @@ const App = () => {
           <Route path="about" element={<About />} />
           <Route path="vans" element={<Vans />} />
           <Route path="vans/:id" element={<DetailsVansPage />} />
-          <Route path="host" element={<HostLayout />}>
-            <Route index element={<Dashboard />} />
-            <Route path="income" element={<Income />} />
-            <Route path="reviews" element={<Reviews />} />
-            <Route path="vans" element={<HostVans />} />
-            <Route path="vans/:id" element={<HostVanDetail />}>
-              <Route index element={<VanInfo />} />
-              <Route path="pricing" element={<VanPricing />} />
-              <Route path="photo" element={<VanPhoto />} />
+          <Route path="login" element={<Login />} />
+          <Route element={<PrivateRoute />}>
+            <Route path="host" element={<HostLayout />}>
+              <Route index element={<Dashboard />} />
+              <Route path="income" element={<Income />} />
+              <Route path="reviews" element={<Reviews />} />
+              <Route path="vans" element={<HostVans />} />
+              <Route path="vans/:id" element={<HostVanDetail />}>
+                <Route index element={<VanInfo />} />
+                <Route path="pricing" element={<VanPricing />} />
+                <Route path="photo" element={<VanPhoto />} />
+              </Route>
             </Route>
           </Route>
           <Route path="*" element={<NotFound />} />

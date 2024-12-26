@@ -180,5 +180,16 @@
       "imageUrl": "https://assets.scrimba.com/advanced-react/react-router/lakeside-retreat.png",
       "type": "simple"
     }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "password123"
+    }
   ]
 }
+
+
+
